@@ -14,6 +14,15 @@
   </head>
   <body>
 
+    <article class="mobile">
+      <ul class="mobile-menu">
+        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">about</a></li>
+        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">benifits</a></li>
+        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">download</a></li>
+        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">sign up</a></li>
+      </ul>
+    </article>
+
     <header class="header sticky-top">
       <div class="container h-100">
         <nav class="navbar">
@@ -27,6 +36,9 @@
             <li class="navbar-nav__item"><a href="#" class="navbar-nav__link">download</a></li>
             <button class="navbar-nav__button">Sign Up</button>
           </ul>
+          <a href="#" class="header__hamburger d-sm-none">
+            <span class="icon icon-menu"></span>
+          </a>
         </nav>
       </div>
     </header>
@@ -34,14 +46,14 @@
     <section class="main">
       <div class="container h-100">
         <div class="row h-100 align-items-center">
-          <div class="col-lg-8 col-md-12">
+          <div class="col-lg-7 col-md-12">
             <h1 class="main-title">great smartphone app <br> just for you!</h1>
             <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra lobortis aliquam. Nunc at turpis quis augue interdum aliquam et vitae magna. Maecenas augue quam, placerat ac dolor ac, hendrerit condimentum purus. Ut convallis mauris sed molestie ultricies.</p>
             <button href="#" class="download-button">download now</button>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-5">
             <div class="main-phone">
-            <img src="img/phone.png" alt="" class="main-phone__image">
+            <img src="img/phone2.png" alt="" class="main-phone__image">
             </div>
           </div>
         </div>
@@ -137,5 +149,6 @@
     </footer>
 
   <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/mobile-menu.js"></script>
   </body>
 </html>

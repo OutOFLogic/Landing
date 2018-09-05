@@ -1,6 +1,11 @@
 .header
   background-color: $header-bg
-  height: 86px
+  height: 6.143em
+  &__hamburger
+    font-size: 35px
+    color: $white-color
+    &:focus
+      color: $white-color
 
 .navbar
   height: 100%
@@ -27,7 +32,6 @@
       font-size: 1.143em
       font-weight: 400
       text-transform: uppercase
-      // transition: all, 4s
       &::after
         transition: all, .3s
         content: ''
@@ -40,12 +44,11 @@
         color: $white-color
         &::after
           transform: scaleX(1)
-
     &__button
       width: 117px
       height: 45px
       background-color: $header-btn-bg
-      font-size: 1.214em
+      font-size: 16px
       color: $white-color
       font-weight: 400
       border-radius: 5px

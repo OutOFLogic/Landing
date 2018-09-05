@@ -1,0 +1,29 @@
+.mobile
+  padding: 0
+  margin: 0
+  right: 0
+  top: 86px
+  position: fixed
+  display: flex
+  background-color: white
+  height: 100vh
+  width: 100%
+  transition: all .3s
+  transform: translateX(100%)
+  z-index: 999
+  &-menu
+    text-transform: uppercase
+    list-style: none
+    &__active
+      transform: translateX(0%)
+    &__item
+      width: 80vw
+      border-bottom: 1px solid grey
+      &:last-child
+        font-weight: 700
+        color: $header-btn-bg
+    &__link
+      font-size: 30px
+      line-height: 2.5em
+      color: inherit
+      text-decoration: none
