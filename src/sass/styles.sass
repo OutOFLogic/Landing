@@ -6,8 +6,15 @@ $grid-gutter-width: 20px
 
 @import ../../node_modules/bootstrap/scss/mixins
 @import ../../node_modules/bootstrap/scss/reboot
+@import ../../node_modules/bootstrap/scss/utilities
 @import ../../node_modules/bootstrap/scss/grid
+@import ../../node_modules/bootstrap/scss/navbar
 
+body
+  background-color: $body-bg
+  font-size: 14px
+
+@import media
 @import colors.sass
 @import interfaces.sass
 @import header.sass
@@ -15,3 +22,12 @@ $grid-gutter-width: 20px
 @import features.sass
 @import team.sass
 @import footer.sass
+
+button
+  border: none
+  cursor: pointer
+  &:focus
+    outline: none
+
+a:hover
+  text-decoration: none
